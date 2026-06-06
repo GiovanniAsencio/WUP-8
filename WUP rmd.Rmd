@@ -40,7 +40,7 @@ abline(M2)
 summary(M2)
 ```
 
-The graph above shows the relationship between AGE and NECK.
+The graph above shows the relationship between AGE and NECK. The adjusted R-squared value is 0.5041, meaning that about 50.41% of the variation in AGE is explained by NECK.
 
 # Comparison
 
