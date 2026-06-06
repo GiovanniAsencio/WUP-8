@@ -1,0 +1,51 @@
+---
+title: "WUP_08"
+author: "Giovanni Asencio"
+output: html_document
+---
+
+# Introduction
+
+This project compares two regression models for predicting a bear's age.
+
+# Load Data
+
+```{r}
+bears <- read.csv("BEARS.csv", header=TRUE)
+```
+
+# Model 1: AGE ~ LENGTH
+
+```{r}
+M1 <- lm(AGE ~ LENGTH, data=bears)
+
+plot(AGE ~ LENGTH, data=bears)
+
+abline(M1)
+
+summary(M1)
+```
+
+The graph above shows the relationship between AGE and LENGTH.
+
+# Model 2: AGE ~ NECK
+
+```{r}
+M2 <- lm(AGE ~ NECK, data=bears)
+
+plot(AGE ~ NECK, data=bears)
+
+abline(M2)
+
+summary(M2)
+```
+
+The graph above shows the relationship between AGE and NECK.
+
+# Comparison
+
+The better model will be determined by comparing adjusted R-squared values.
+
+# Conclusion
+
+The model with the larger adjusted R-squared is the better predictor of AGE.
