@@ -26,7 +26,7 @@ abline(M1)
 summary(M1)
 ```
 
-The graph above shows the relationship between AGE and LENGTH.
+The graph above shows the relationship between AGE and LENGTH. The adjusted R-squared value is 0.5073, meaning that about 50.73% of the variation in AGE is explained by LENGTH.
 
 # Model 2: AGE ~ NECK
 
