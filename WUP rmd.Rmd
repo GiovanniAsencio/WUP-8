@@ -44,8 +44,8 @@ The graph above shows the relationship between AGE and NECK. The adjusted R-squa
 
 # Comparison
 
-The better model will be determined by comparing adjusted R-squared values.
+The AGE ~ LENGTH model has an adjusted R-squared of 0.5073, while the AGE ~ NECK model has an adjusted R-squared of 0.5041. Since 0.5073 is slightly larger than 0.5041, the AGE ~ LENGTH model is the better predictor of AGE.
 
 # Conclusion
 
-The model with the larger adjusted R-squared is the better predictor of AGE.
+Both LENGTH and NECK are useful predictors of AGE. However, the AGE ~ LENGTH model performs slightly better because it has the larger adjusted R-squared value. Therefore, AGE ~ LENGTH is the preferred model for predicting a bear's age.
